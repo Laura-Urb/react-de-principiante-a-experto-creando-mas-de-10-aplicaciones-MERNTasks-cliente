@@ -17,7 +17,7 @@ const ListadoProyectos = () => {
     //eslint-disable-next-line
   }, [mensaje]);
 
-  if (proyectos.length === 0) return <h2>N hay proyectos</h2>;
+  if (proyectos.length === 0) return <h2>No hay proyectos</h2>;
 
   return (
     <ul className="listado-proyectos">
